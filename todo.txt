@@ -1,0 +1,15 @@
+Classes
+1. Visualization
+ a. MPR viewer (3 vtkImageReslice + volume (MIP/vtkImagePlane switch)
+  i. Add muliple volumes
+  ii. Clear volumes
+
+2. IO
+ a. DICOM IO
+  i. Read DICOM Image(s)
+  ii. Return vtkImageData
+  iii. Return dicom info (coordinates, cosines,
+
+3. Data Manipulation
+ a. Simple filter
+ b. Change simple voxel information
